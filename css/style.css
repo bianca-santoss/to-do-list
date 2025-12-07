@@ -1,0 +1,51 @@
+body {
+  background: #fff5f7;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  width: 350px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+#inputTarefa {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+#btnAdd {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #ff7675;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#btnAdd:hover {
+  background: #d65c5c;
+}
+
+li {
+  padding: 8px;
+  background: #ffecec;
+  border-radius: 6px;
+  margin-top: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+li:hover {
+  background: #ffdada;
+}
